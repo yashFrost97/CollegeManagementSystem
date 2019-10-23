@@ -1,0 +1,91 @@
+html, body, .container {
+	height: 100%;
+}
+
+body {
+	background: #FF5F6D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: Lato;
+}
+
+
+
+#profile-card {
+	padding-top: 0px;
+}
+
+.profile {
+	background: #FF5F6D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+
+	margin: 20px 0;
+}
+
+.profile-sidebar {
+	padding: 20px 0 10px 0;
+	background: #f0f0f0;
+	height: 100%;
+	border: 1px solid black;
+}
+
+.profile-userpic img {
+	float:; none;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+	-webkit-border-radius: 50% !important;
+	-moz-border-radius: 50% !important;
+	border-radius: 50% !important;
+}
+
+.profile-usertitle {
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.profile-usertitle-name {
+	color: black;;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+	color:black;
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.profile-usermenu {
+	margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+	border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+	border-bottom: none;
+}
+
+.profile-usermenu ul li  {
+	margin-left: 10%;
+	color:black;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.profile-content {
+	padding: 20px;
+	background: #fff;
+	min-height: 460px;
+}
+
+.card {
+	margin: 20px;
+}
